@@ -15,7 +15,7 @@ group :test do
 end
 
 gem 'braintree'
-
+gem 'activemerchant', '~> 1.42.3', github: 'alexandremcosta/active_merchant', branch: 'add_gateway_maxipago'
 gem 'spree', github: 'spree/spree', :branch => 'master'
 
 gemspec
